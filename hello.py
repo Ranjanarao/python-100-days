@@ -27,3 +27,11 @@ print(15/9)
 print(4**6)
 print(56//4)
 print(56%4)
+
+#Create a calculator capable of performing addition, subtraction, mutiplication, division operation on two numbers. your program should format the output in a readable manner.
+A = int(input("enter first number : "))
+B = int(input("enter second number : "))
+print("Addition : ",A + B)
+print("Subtraction : ",A - B)
+print("Multiplication : ",A * B)
+print("Division : ",A / B)
