@@ -19,3 +19,11 @@ print(tuple1)
 
 dict1 = {"name": "harry", "age":19, "drive" : True}
 print(dict1)
+
+print(5+6)
+print(6-5)
+print(14*8)
+print(15/9)
+print(4**6)
+print(56//4)
+print(56%4)
