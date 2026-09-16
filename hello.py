@@ -35,3 +35,7 @@ print("Addition : ",A + B)
 print("Subtraction : ",A - B)
 print("Multiplication : ",A * B)
 print("Division : ",A / B)
+
+a = 1
+b = 2
+print(a + b)
