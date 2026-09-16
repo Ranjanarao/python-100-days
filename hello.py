@@ -43,3 +43,9 @@ a = "1"
 b = "2"
 print(a + b)
 print(int(a) + int(b))
+
+string = "15"
+number = 7
+string_number = int(string)
+sum = string_number + number
+print("the sum of both the numbers is : ",sum)
