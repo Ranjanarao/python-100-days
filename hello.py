@@ -44,8 +44,14 @@ b = "2"
 print(a + b)
 print(int(a) + int(b))
 
+#Explicit typecasting
 string = "15"
 number = 7
 string_number = int(string)
 sum = string_number + number
 print("the sum of both the numbers is : ",sum)
+
+#Implicit typecasting
+a = 5
+b = 2.5
+print(a + b)
