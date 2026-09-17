@@ -82,3 +82,7 @@ print(name[1])
 print("Lets use a for loop\n")
 for character in apple:
     print(character)
+
+#string slicing
+name = "ravi, ravina"
+print(name[0:4])
