@@ -56,5 +56,29 @@ a = 5
 b = 2.5
 print(a + b)
 
-a = input()
+#user input
+a = input("enter your name : ")
 print("My name is :" ,a)
+
+x = input("enter first number : ")
+y = input("enter second number : ")
+print(x + y)
+print(int(x) + int(y))
+
+name = "ravi"
+friend = "shyam"
+apple = '''apple,
+i am good
+i am gorgeous
+"this is nice'''
+print("hari, " + name)
+print(apple)
+#indexing
+print(name[0])
+print(name[3])
+print(name[2])
+print(name[1])
+#print(name[4]) throws error as the index is out of range
+print("Lets use a for loop\n")
+for character in apple:
+    print(character)
