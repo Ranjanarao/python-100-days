@@ -86,3 +86,5 @@ for character in apple:
 #string slicing
 name = "ravi, ravina"
 print(name[0:4])
+print(len(name))
+print(name[2:4])
