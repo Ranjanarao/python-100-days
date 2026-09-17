@@ -55,3 +55,6 @@ print("the sum of both the numbers is : ",sum)
 a = 5
 b = 2.5
 print(a + b)
+
+a = input()
+print("My name is :" ,a)
