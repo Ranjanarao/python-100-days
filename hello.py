@@ -91,3 +91,7 @@ print(name[2:4])
 
 nm = "Harry"
 print(nm[-4:-2])
+
+a= "Harry"
+print(len(a))
+print(a.upper())
