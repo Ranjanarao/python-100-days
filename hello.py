@@ -93,7 +93,10 @@ nm = "Harry"
 print(nm[-4:-2])
 
 #strings are immutable
-a= "Harry"
+a = "!!!Harry!!!!!!!"
 print(len(a))
+print(a)
 print(a.upper())
 print(a.lower())
+print(a.rstrip("!"))
+print(a.replace("Harry", "RAVI"))
