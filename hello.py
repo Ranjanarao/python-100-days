@@ -88,3 +88,6 @@ name = "ravi, ravina"
 print(name[0:4])
 print(len(name))
 print(name[2:4])
+
+nm = "Harry"
+print(nm[-4:-2])
