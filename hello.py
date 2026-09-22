@@ -93,7 +93,7 @@ nm = "Harry"
 print(nm[-4:-2])
 
 #strings are immutable
-a = "!!!Harry!!!!!!! !!! Harry"
+a = "!!!Harry!!!!!!! !!! Harry Harry"
 print(len(a))
 print(a)
 print(a.upper())
@@ -107,3 +107,7 @@ print(blogHeading.capitalize())
 str1 = "Welcome to the Console!!!"
 print(len(str1))
 print(len(str1.center(50)))
+print(a.count("Harry"))
+
+str1 = "Welcome to the Console!!!"
+print(str1.endswith("!!!"))
