@@ -101,3 +101,5 @@ print(a.lower())
 print(a.rstrip("!"))
 print(a.replace("Harry", "RAVI"))
 print(a.split(" "))
+blogHeading = "introduction to python"
+print(blogHeading.capitalize())
