@@ -103,3 +103,7 @@ print(a.replace("Harry", "RAVI"))
 print(a.split(" "))
 blogHeading = "introduction to python"
 print(blogHeading.capitalize())
+
+str1 = "Welcome to the Console!!!"
+print(len(str1))
+print(len(str1.center(50)))
