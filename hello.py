@@ -133,3 +133,8 @@ print(str1.islower())
 str1 = "Hello world"
 print(str1.islower())
 
+str1 = "We wish you a mery christmas"
+print(str1.isprintable())
+str1 = "We wish you a mery christmas\n"
+print(str1.isprintable())
+
