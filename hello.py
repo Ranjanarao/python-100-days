@@ -144,3 +144,8 @@ print(str1.isspace())
 #using tab 
 str1 = "    "
 print(str1.isspace())
+
+str1 = "World Health Organization"
+print(str1.istitle())
+str1 ="To kill a Mocking bird"
+print(str1.istitle())
