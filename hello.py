@@ -138,3 +138,9 @@ print(str1.isprintable())
 str1 = "We wish you a mery christmas\n"
 print(str1.isprintable())
 
+#using Spacebar
+str1 = "       "
+print(str1.isspace())
+#using tab 
+str1 = "    "
+print(str1.isspace())
