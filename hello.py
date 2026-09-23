@@ -128,3 +128,8 @@ print(str1.isalpha())
 str1 = "Welcome235"
 print(str1.isalpha())
 
+str1 = "hello world"
+print(str1.islower())
+str1 = "Hello world"
+print(str1.islower())
+
