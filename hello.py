@@ -113,3 +113,12 @@ print(a.count("Harry"))
 str1 = "Welcome to the Console!!!"
 print(str1.endswith("!!!"))
 print(str1.endswith("to", 2, 10))
+
+str1 = "he's name is Dan. He is an honest man."
+print(str1.find("is"))
+print(str1.find("ish"))
+# print(str1.index("ish"))
+
+str1 = "WelcomeToTheConsole"
+print(str1.isalnum())
+
