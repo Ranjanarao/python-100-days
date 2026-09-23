@@ -149,3 +149,13 @@ str1 = "World Health Organization"
 print(str1.istitle())
 str1 ="To kill a Mocking bird"
 print(str1.istitle())
+
+str1 = "hello world"
+print(str1.startswith("hello"))
+
+str1 = "HeLLo wOrld"
+print(str1.swapcase())
+
+str1 = "His name is mariya"
+print(str1.title())
+
