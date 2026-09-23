@@ -106,8 +106,10 @@ print(blogHeading.capitalize())
 
 str1 = "Welcome to the Console!!!"
 print(len(str1))
-print(len(str1.center(50)))
+print(len(str1.center(60)))
+print(str1.center(60))
 print(a.count("Harry"))
 
 str1 = "Welcome to the Console!!!"
 print(str1.endswith("!!!"))
+print(str1.endswith("to", 2, 10))
