@@ -121,4 +121,10 @@ print(str1.find("ish"))
 
 str1 = "WelcomeToTheConsole"
 print(str1.isalnum())
+str1 = "Welcome"
+print(str1.isalpha())
+str1 = "Welcome00"
+print(str1.isalpha())
+str1 = "Welcome235"
+print(str1.isalpha())
 
