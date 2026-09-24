@@ -174,3 +174,10 @@ if(a>=18):
     print("you can drive")
 else:
     print("you cannot drive")
+
+applePrice = 10
+budget = 200
+if(budget - applePrice > 50):
+    print("Alexa,add 1 kg Apple to the card")
+else:
+    print("Alexa, do not add Apple to the card")    
