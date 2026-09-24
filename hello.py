@@ -162,7 +162,14 @@ print(str1.title())
 #if-else statement
 a = int(input("Enter your age : "))
 print("your age is : ",a)
-
+#conditional statement
+# >, < , >=, <=, ==, !=
+print(a>18)
+print(a<18)
+print(a>=18)
+print(a<=18)
+print(a==18)
+print(a!=18)
 if(a>=18):
     print("you can drive")
 else:
