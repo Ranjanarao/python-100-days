@@ -159,3 +159,11 @@ print(str1.swapcase())
 str1 = "His name is mariya"
 print(str1.title())
 
+#if-else statement
+a = int(input("Enter your age : "))
+print("your age is : ",a)
+
+if(a>=18):
+    print("you can drive")
+else:
+    print("you cannot drive")
