@@ -224,5 +224,10 @@ match x:
         print("x is 1")
     case 7:
         print("x is 7")
+    
+    case _ if x!=90:
+        print(x, "is not 90")
+    case _ if x!=40:
+        print(x, "is not 40")
     case _:
         print(x)
