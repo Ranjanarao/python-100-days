@@ -205,3 +205,12 @@ elif(num>0):
         print("number i greater than 20")
 else:
     print("The number is zero.")
+
+#question
+a = int(input("enter the time : "))
+if(4 <= a < 12):
+    print("Good Morning")
+elif(12 <= a < 16):
+    print("Good Afternoon")
+else:
+    print("Good evening")
