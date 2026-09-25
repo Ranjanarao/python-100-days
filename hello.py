@@ -180,4 +180,11 @@ budget = 200
 if(budget - applePrice > 50):
     print("Alexa,add 1 kg Apple to the card")
 else:
-    print("Alexa, do not add Apple to the card")    
+    print("Alexa, do not add Apple to the card") 
+
+num = int (input("Enter the value of num : "))
+if(num<0):
+    print("The number is negative.")
+else:
+    print("The number is positive.")     
+    
