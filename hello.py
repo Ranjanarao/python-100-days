@@ -185,6 +185,23 @@ else:
 num = int (input("Enter the value of num : "))
 if(num<0):
     print("The number is negative.")
+elif(num==0):
+    print("The number is zero.")
+elif(num==999):
+    print("The number is special.")
 else:
     print("The number is positive.")     
-    
+
+#nested statement
+num = 18
+if(num<0):
+    print("The number is negative.")
+elif(num>0):
+    if(num<=10):
+        print("number is between 1-10")
+    elif(num<=20):
+        print("number is between 11-20")
+    else:
+        print("number i greater than 20")
+else:
+    print("The number is zero.")
