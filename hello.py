@@ -214,3 +214,15 @@ elif(12 <= a < 16):
     print("Good Afternoon")
 else:
     print("Good evening")
+
+#match case statement
+x = int(input("enter the value of x : "))
+match x:
+    case 0:
+        print("x is zero")
+    case 1:
+        print("x is 1")
+    case 7:
+        print("x is 7")
+    case _:
+        print(x)
