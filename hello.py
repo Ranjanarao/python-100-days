@@ -245,5 +245,11 @@ for color in colors:
     for i in color:
         print(i) 
 #range():
-for i in range(100):
+for i in range(101):
     print(i)
+for k in range(14):
+   print(k+1)    
+for k in range(1, 20001):
+    print(k)   
+for g in range(1, 12, 2):
+    print(g)    
