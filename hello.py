@@ -240,5 +240,7 @@ for i in name:
         print("This is something special!")
  
 colors = ["Red", "Green", "Blue", "Yellow"]
-for x in colors:
-    print(x) 
+for color in colors:
+    print(color)
+    for i in color:
+        print(i) 
