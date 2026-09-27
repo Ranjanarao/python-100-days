@@ -231,3 +231,11 @@ match x:
         print(x, "is not 40")
     case _:
         print(x)
+
+#loops
+name = "abhishek"
+for i in name:
+    print(i)
+    if(i =="b"):
+        print("This is something special!")
+        
