@@ -244,3 +244,6 @@ for color in colors:
     print(color)
     for i in color:
         print(i) 
+#range():
+for i in range(100):
+    print(i)
