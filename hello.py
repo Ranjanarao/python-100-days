@@ -252,7 +252,6 @@ for k in range(14):
 for k in range(1, 20001):
     print(k)   
 for g in range(1, 12, 2):
-    print(g)
         print(g)
 #i = 0
 #while(i<=3):
