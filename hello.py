@@ -262,8 +262,19 @@ for g in range(1, 12, 2):
  #   i = int(input("enter the number: "))
   #  print(i)      
 #print("done with the loop")
-count = 5
+count = -5
 while (count > 0):
    print(count)
    count = count - 1
+else:
+    print("i am inside else") 
+#function
+a = 9
+b = 8
+gmean1 = (a*b)/(a+b)
+print(gmean1)
 
+c = 8
+d = 7
+gmean2 = (c*d)/(c+d)
+print(gmean2)
