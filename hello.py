@@ -302,3 +302,6 @@ isgreater(c,d)
 #gmean2 = (c*d)/(c+d)
 #print(gmean2)
 calculategmean(c,d)
+def average(a,b):
+    print("the average is:", (a+b)/2)
+average(4,6)
