@@ -318,4 +318,9 @@ def average(*numbers):
         sum = sum + i
     print("Average is : ", sum/len(numbers))
 
-average(5,6)      
+average(5,6,5,6,7,8,9,10)      
+
+def name(**name):
+    print("Hello", name["fname"], name["mname"], name["lname"])
+
+name(mname = "buchannan", lname = "barner", fname = "james")    
