@@ -310,3 +310,12 @@ average()
 def name(fname, mname = "jhon", lname = "whatson"):
     print("Hello", fname, mname, lname)
 name("Amy", "Agrawal","Singh")
+
+def average(*numbers):
+    print(type(numbers))
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print("Average is : ", sum/len(numbers))
+
+average(5,6)      
