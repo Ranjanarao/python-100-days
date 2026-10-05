@@ -341,3 +341,12 @@ print(l[-4])
 print(l[len(l)-4])
 print(l[6-3])
 print(l[3])
+if 7 in l:
+    print("Yes")
+else:
+    print("No")    
+
+if "Ranjana" in l:
+    print("Yes")
+else:
+    print("No")    
