@@ -359,3 +359,10 @@ print(l)
 print(l[1:6])
 print(l[1:6:2])
 
+#list comprehension
+lst = [i for i in range(6)]
+print(lst)
+lst1 = [i*i for i in range(6)]
+print(lst1)
+lst2 = [i*i for i in range(10) if i%2==0]
+print(lst2)
