@@ -350,3 +350,12 @@ if "Ranjana" in l:
     print("Yes")
 else:
     print("No")    
+
+print(l)
+print(l[1:-1])
+print(l[1:6])
+
+print(l)
+print(l[1:6])
+print(l[1:6:2])
+
