@@ -326,4 +326,11 @@ def name(**name):
     print(type(name))
     print("Hello", name["fname"], name["mname"], name["lname"])
 
-name(mname = "buchannan", lname = "barner", fname = "james")    
+name(mname = "buchannan", lname = "barner", fname = "james") 
+l = [1,2,3,4,]
+print(l)
+print(type(l))
+print(l[0])
+print(l[1])
+print(l[2])
+print(l[3])
