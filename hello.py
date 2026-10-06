@@ -367,7 +367,15 @@ print(lst1)
 lst2 = [i*i for i in range(10) if i%2==0]
 print(lst2)
 
-list = [1,2,3,4,5]
+list = [11,2,33,4,5,5]
 print(list)
-list.append(6)
+#list.append(6)
+#list.sort()
+#list.reverse()
+#print(list.index(4))
+#print(list.count(5))
+m = list
+# m = list.copy()
+m[2] = 44
+list.insert(1, 22)
 print(list)
