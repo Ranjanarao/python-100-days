@@ -386,10 +386,15 @@ k = list + n
 print(k)
 
 tup = (1,2,3,4,5,"green","hello",True)
-#tup[0] = 6 tuple is not mutable
+#tup[0] = 6 tuple is immutable
 print(tup[0])
 print(tup[1:4])
 print(tup[-3])
 print(tup[-1])
 print(tup[-3:-1])
 print(type(tup),tup)
+
+if 343 in tup:
+    print("Yes")
+else:
+    print("No")    
