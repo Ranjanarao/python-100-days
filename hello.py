@@ -366,3 +366,8 @@ lst1 = [i*i for i in range(6)]
 print(lst1)
 lst2 = [i*i for i in range(10) if i%2==0]
 print(lst2)
+
+list = [1,2,3,4,5]
+print(list)
+list.append(6)
+print(list)
