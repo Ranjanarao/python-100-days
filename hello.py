@@ -379,3 +379,8 @@ m = list
 m[2] = 44
 list.insert(1, 22)
 print(list)
+
+n = [9000,1100,6000]
+#list.extend(n)
+k = list + n
+print(k)
