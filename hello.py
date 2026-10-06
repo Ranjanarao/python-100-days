@@ -384,3 +384,7 @@ n = [9000,1100,6000]
 #list.extend(n)
 k = list + n
 print(k)
+
+tup = (1,2,3,4,5,"green","hello",True)
+#tup[0] = 6 tuple is not mutable
+print(type(tup),tup)
