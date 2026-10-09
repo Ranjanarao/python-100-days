@@ -411,3 +411,7 @@ countries1 = ("Pakistan", "Bangladesh", "Nepal")
 countries2 = ("Bhutan", "Sri Lanka", "Maldives")
 southEastAsia = countries1 + countries2
 print(southEastAsia) 
+
+tuple1 = (1,2,3,4,5,6,6,6,6,6)
+res = tuple1.count(6)
+print(res)
