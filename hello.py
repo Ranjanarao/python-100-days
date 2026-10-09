@@ -367,23 +367,23 @@ print(lst1)
 lst2 = [i*i for i in range(10) if i%2==0]
 print(lst2)
 
-list = [11,2,33,4,5,5]
-print(list)
-#list.append(6)
-#list.sort()
-#list.reverse()
-#print(list.index(4))
-#print(list.count(5))
-m = list
-# m = list.copy()
-m[2] = 44
-list.insert(1, 22)
-print(list)
+# list = [11,2,33,4,5,5]
+# print(list)
+# #list.append(6)
+# #list.sort()
+# #list.reverse()
+# #print(list.index(4))
+# #print(list.count(5))
+# m = list
+# # m = list.copy()
+# m[2] = 44
+# list.insert(1, 22)
+# print(list)
 
-n = [9000,1100,6000]
-#list.extend(n)
-k = list + n
-print(k)
+# n = [9000,1100,6000]
+# #list.extend(n)
+# k = list + n
+# print(k)
 
 tup = (1,2,3,4,5,"green","hello",True)
 #tup[0] = 6 tuple is immutable
@@ -398,3 +398,11 @@ if 343 in tup:
     print("Yes")
 else:
     print("No")    
+
+countries = ("India", "USA", "UK", "Germany", "France")
+temp = list(countries)
+temp.append("Italy")
+temp.pop(3)
+temp[2] = "Spain"
+countries = tuple(temp)
+print(countries)    
