@@ -406,3 +406,8 @@ temp.pop(3)
 temp[2] = "Spain"
 countries = tuple(temp)
 print(countries)    
+
+countries1 = ("Pakistan", "Bangladesh", "Nepal")
+countries2 = ("Bhutan", "Sri Lanka", "Maldives")
+southEastAsia = countries1 + countries2
+print(southEastAsia) 
