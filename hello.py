@@ -417,4 +417,15 @@ tuple1 = (1,2,3,4,5,6,6,688,6,96)
 res = tuple1.index(6)
 print(res)
 
+import time
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+timestamp = time.strftime('%H')
+print(timestamp)
+timestamp = time.strftime('%M')
+print(timestamp)
+timestamp = time.strftime('%S')
+print(timestamp)
+#https://docs.python.org/3/library/time.html
+#time.strftime
 
