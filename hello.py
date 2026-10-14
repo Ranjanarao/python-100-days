@@ -435,8 +435,13 @@ hour = int(time.strftime('%H'))
 print(hour)
 
 if(hour>=0 and hour<12):
-    print("Good Morning")
+    print("Good Morning Ranjana")
 elif(hour>=12 and hour<16):
-    print("Good Afternoon")
+    print("Good Afternoon Ranjana")
 else:
-    print("good night")
+    print("good night Ranjana")
+
+#create a program capable of displaying questions to the user like KBS.
+#Use List data type to store the questions and their correct answers.
+#Display the final amount the person is taking home after playing the game.
+
